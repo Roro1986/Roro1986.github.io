@@ -1,0 +1,145 @@
+
+
+/**Margen del encabezado*/
+header{
+    margin: 15px;
+}
+
+/**Cuerpo principal del Curriculum*/
+body{
+    margin-top: 0%;
+    margin-left: 100px;
+    margin-bottom: 0%;
+    margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/**Contenedor principal con las section de cada archivo academico-laboral-contacto*/
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+
+/**Estilos para section de datos personales*/
+#datos-personales {
+    background-color: rgb(34, 33, 33);
+    flex: 60px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    padding: 40px;
+}
+.info-perfil h3 {
+    text-align: center;
+}
+
+/**Estilo de la foto del curriculum*/
+.centrado{
+    margin:20px auto;
+	display:block;
+    padding: 20px;
+}
+
+/**Nombre y titulo principal de cada seccion (Historial academica, laboral y contacto)*/
+h2, h1{
+    text-align: center;
+}
+
+
+/**Estilos de informacion de sections academico-laboral-contacto*/
+#academico-laboral-contacto{
+    background-color: rgb(248, 246, 242);
+    flex: 400px;
+    
+}
+
+.tareas{
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+#titulo{
+    text-align: left;
+    background-color: rgb(34, 33, 33);
+    color: white ;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#experiencia{
+    padding-left: 40px;
+}
+
+
+/**Estilos de la barra de navegacion*/
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+    flex-direction: row;
+    background-color: rgb(34, 33, 33);
+    
+    
+}
+#navinformacion { 
+      color: white;
+      text-decoration: none;
+      text-align:center;
+      padding: 10px;
+      
+    
+      
+}
+a:hover{
+    background-color: rgb(107, 107, 231);
+    transition: background-color.3s;
+    
+    
+}
+
+
+/**estilo para el boton de envio de mensaje de la seccion "Contacto"*/
+#boton{
+    background-color: rgb(34, 33, 33);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color.3s;
+}
+
+#boton:hover{
+    transition: background-color.3s;
+    background-color: rgb(107, 107, 231);
+}
+/**iconos para la infromacion de contacto de la seccion "Contacto"*/
+  .fa{
+      font-size: 50px;
+  }
+
+
+/**Margen de pie de pagina*/
+footer{
+    margin: 15px;
+}
+
+@media screen and (max-width:600px){
+    nav, #contendor {
+        flex-direction: column;
+    }
+    
+}
+
